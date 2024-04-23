@@ -24,3 +24,5 @@ def openLock(self, deadends: List[str], target: str) -> int:
                         queue.append((new_lock, moves + 1))
         
         return -1
+
+    
