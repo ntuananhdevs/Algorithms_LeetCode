@@ -23,12 +23,10 @@ class Solution {
         $count = count($num);
         if ($count % 2 == 1) {
             return $num[$count / 2];
-        } else {
+        } 
+        else {
             return ($num[$count / 2] + $num[$count / 2 - 1]) / 2;
         }
     }
-
 }
-
-
 ?>
